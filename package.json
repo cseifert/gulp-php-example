@@ -1,0 +1,20 @@
+{
+  "name": "gulp-php-example",
+  "version": "1.0.0",
+  "description": "A simple Gulp example for PHP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Seifert",
+  "license": "BSD-2-Clause",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-phpcpd": "~1.0.1",
+    "gulp-phpcs": "~0.7.0",
+    "phplint": "~1.6.1",
+    "gulp-phpunit": "~0.9.1",
+    "gulp-shell": "~0.4.3"
+  }
+}
