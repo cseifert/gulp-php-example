@@ -1,7 +1,4 @@
 # gulp-php-example
-Gulp example for automating PHP code analysis, beautifying, testing and documentation.
-
-# gulp-php-example
 This repository is a simple Gulp example for PHP integrating PHPUnit, PHPlint, PHP_CodeSniffer, PHP Mess Detector, PHP Copy/Paste Detector, PHP Codebeautifier, PHP_Depend and PHPDoc.
 
 ## Installation
