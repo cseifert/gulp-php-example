@@ -29,7 +29,7 @@ gulp.task('phpcs', function () {
 
 gulp.task('phpcbf', shell.task([config.vendorBin + 'phpcbf --standard=PSR2 ' + config.phpDir]));
 
-gulp.task('phpmd', shell.task([config.vendorBin + 'phpmd php html codesize,unusedcode,naming,design,cleancode,controversial --reportfile ' + config.docDir + '/phpmd.html --suffixes ' + config.phpDir]));
+gulp.task('phpmd', shell.task([config.vendorBin + 'phpmd ' + config.phpDir + ' html codesize,unusedcode,naming,design,cleancode,controversial --reportfile ' + config.docDir + '/phpmd.html --suffixes ' + config.phpDir]));
 
 gulp.task('pdepend', shell.task([
     'mkdir -p ' + config.pdependDocDir,
