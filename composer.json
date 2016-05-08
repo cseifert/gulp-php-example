@@ -5,7 +5,8 @@
         "phpdocumentor/phpdocumentor": "^2.8",
         "phpmd/phpmd": "^2.3",
         "pdepend/pdepend": "^2.2",
-        "sebastian/phpcpd": "^2.0"
+        "sebastian/phpcpd": "^2.0",
+		"phpmetrics/phpmetrics": "^1.10"
     },
     "require": {
     }
